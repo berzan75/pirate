@@ -43,7 +43,6 @@ pirate_list= pygame.sprite.Group()
 peter_list = pygame.sprite.Group()
 allsprites = pygame.sprite.Group()
 
-#creating recyclable items
 for i in range (50):
     item=Good(random.choice(good))
     item.rect.x = random.randrange(WIDTH)
